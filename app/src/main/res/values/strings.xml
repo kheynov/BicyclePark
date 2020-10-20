@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Умная велопарковка</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="connecting_to_park">Подключаемся к парковке</string>
+    <string name="OK">ОК</string>
+
+    <string name="closed_title">Закрыто</string>
+    <string name="opened_title">Открыто</string>
+    <string name="park_place_number">Парковочное место № </string>
+    <string name="show_on_map">Показать на карте</string>
+    <string name="start_using">Начать пользоваться</string>
+    <string name="click_to_start">Нажмите, чтобы установить велосипед на парковку</string>
+    <string name="bike_park_title">Парковка для велосипедов НСК</string>
+    <string name="close_open_icon">close/open icon</string>
+    <string name="park_places_title">Парковочные места</string>
+    <string name="back_to">Выход</string>
+    <string name="already_closed">У вас уже есть закрытая парковка №</string>
+
+</resources>

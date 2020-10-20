@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.github.kheynov.bicyclepark.MainActivity">
+
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="377dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="@string/click_to_start"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextSecondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOpenClose" />
+
+    <Button
+        android:id="@+id/buttonOpenClose"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:onClick="scanQR"
+        android:text="@string/start_using"
+        android:textColor="@color/colorTextPrimary"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="showOnMap"
+        android:text="@string/show_on_map"
+        android:textColor="@color/colorTextPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="366dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/bike_park_title"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

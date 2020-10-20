@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "308943999940",
+    "firebase_url": "https://bikepark-1d150.firebaseio.com",
+    "project_id": "bikepark-1d150",
+    "storage_bucket": "bikepark-1d150.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308943999940:android:61a89eccb7ade49b",
+        "android_client_info": {
+          "package_name": "io.github.kheynov.bicyclepark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308943999940-ruchlpos7ocothv0fbeqdbtl19qofbmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHpzDwllcR0xqS7bwMxF2-xy_tUUsZsaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308943999940-ruchlpos7ocothv0fbeqdbtl19qofbmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
